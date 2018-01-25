@@ -49,6 +49,17 @@ namespace Calculator.Test.Unit
             Assert.That(_uut.Multiply(a, b), Is.EqualTo(result));
         }
 
+        [Test]
+        public void Add_AddZero_ResultIsTheSame()
+        {
+            Assert.That(_uut.Add(4, 0), Is.EqualTo(4));
+        }
+
+        [Test]
+        public void Subtract_SubtractZero_ResultIsTheSame()
+        {
+            Assert.That(_uut.Subtract(4, 0), Is.EqualTo(4));
+        }
 
         [TestCase(2, 3, 8)]
         [TestCase(2, -3, 0.125)]
