@@ -11,7 +11,7 @@ namespace Calculator
 
         public double Subtract(double a, double b)
         {
-            return a - 2;
+            return a - b;
         }
 
         public double Multiply(double a, double b)
