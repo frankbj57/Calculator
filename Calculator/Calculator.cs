@@ -6,7 +6,7 @@ namespace Calculator
     {
         public double Add(double a, double b)
         {
-            return a + b;
+            return a;
         }
 
         public double Subtract(double a, double b)
