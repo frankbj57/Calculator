@@ -6,6 +6,7 @@ namespace Calculator
     {
         public double Add(double a, double b)
         {
+// Add comment
             return a + b;
         }
 
