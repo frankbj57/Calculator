@@ -7,7 +7,7 @@ namespace Calculator
         public double Add(double a, double b)
         {
 // Add comment
-            return a + b + 3;
+            return a + b + 5;
         }
 
         public double Subtract(double a, double b)
